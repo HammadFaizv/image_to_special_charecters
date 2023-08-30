@@ -1,6 +1,6 @@
 from PIL import Image
 
-def image_to_ascii_art(img_path: str, output_file: str) -> str:
+def image_to_ascii_art(img_path, output_file):
 
     img = Image.open(img_path).convert("L")  # convert pic to black and white
 
